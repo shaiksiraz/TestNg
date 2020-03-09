@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Programmes]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="QuickTests(failed)" verbose="0">
+    <classes>
+      <class name="QuickTests">
+        <methods>
+          <include name="CheckingfailedTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- QuickTests -->
+    </classes>
+  </test> <!-- QuickTests(failed) -->
+</suite> <!-- Failed suite [Sample Programmes] -->
